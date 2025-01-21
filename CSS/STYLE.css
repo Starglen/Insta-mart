@@ -1,0 +1,37 @@
+form{
+    background-color: #8e8c8b;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 7px 7px 7px black;
+}
+
+legend{
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 8px black ;
+    font-weight: bolder;
+    color: #123263;
+}
+
+input[type=text],input[type=email],input[type=password],input[type=number],input[type=tell],select{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    box-shadow: 4px 4px 4px black;
+
+}
+
+button{
+    background-color: aliceblue;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    display: block; margin: 0 auto;
+}
+button:hover{
+    background-color: #8080d6;
+}
